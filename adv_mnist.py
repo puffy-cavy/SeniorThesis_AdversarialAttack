@@ -36,15 +36,17 @@ train_end=6000
 test_start=0
 test_end=1000
 fgsm_params = {
-  'eps': 0.3,
+  'eps': 0.3, #可调参数
   'clip_min': 0.,
   'clip_max': 1.
 }
+
 train_params = {
     'nb_epochs': NB_EPOCHS,
     'batch_size': BATCH_SIZE,
     'learning_rate': LEARNING_RATE
 }
+
 rng = np.random.RandomState([2017, 8, 30])
 
 def evaluate():
