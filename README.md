@@ -18,6 +18,8 @@ For example, in MNIST dataset a normal zero becomes a zero that cannot be regoni
 * Notice: All image are matplotlib format, rgb value 0 ~ 1, not 0 ~ 255
 
 ### Reference:
+FGSM attack from Cleverhans:
+`https://github.com/tensorflow/cleverhans/tree/master/cleverhans`
 
 German Traffic Sign Dataset:
 
