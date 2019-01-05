@@ -23,7 +23,10 @@ from skimage import color
 from skimage import io
 from skimage import transform
 
-path = "dataset_adv/cifar10_image" #你所希望读的目录, 图片必须目前必须是28 * 28 * 1, rgb 0 ~ 1的黑白图片
+##########
+#this script can produce both the FSGM attack image on CIFAR-10 and GTSRB
+##########
+path = "dataset_adv/cifar10_image" #the directory of the original input images, image size is 32*32*3, rgb 0 ~ 1
 NB_EPOCHS = 1
 BATCH_SIZE = 128
 LEARNING_RATE = 0.001
